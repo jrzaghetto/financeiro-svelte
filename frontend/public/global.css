@@ -1,0 +1,89 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Kufam', cursive, 'Orbitron', sans-serif; -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+p span {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {
+	font-family: 'Kufam', cursive;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+:root {
+	--branco-claro: #FFFFFF;
+	--branco-medio: #F2F4FA;
+	--branco-escuro: #EDF1F9;
+	--cinza-claro: #B5B8CC;
+	--azul-claro: #94A7DB;
+	--azul-medio: #778BBE;
+	--azul-escuro: #3F52A1;
+	--cinza-escuro: #444246;
+	--vermelho: #F43A17;
+	--verde: #A09A6A;
+}
